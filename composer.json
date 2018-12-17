@@ -1,0 +1,21 @@
+{
+    "name": "shangdev/php-utils",
+    "description": "A collection of useful PHP functions.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "shangdev",
+            "email": "609926202@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Bear\\Utils\\" : "src"
+        }
+    }
+}
